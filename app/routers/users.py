@@ -26,6 +26,6 @@ def update_user(user_id: int, name: str, email: str, password: str, db: Session 
     return crud.update_user(db, user_id, name, email, password)
 
 
-@router.delete("/users/{user_id}", response_model=schemas.UserResponse)
+@router.delete("/users/{user_id}", response_model=schemas.MessageResponse)
 def delete_user(user_id: int, db: Session = Depends(database.get_db)) -> Union[schemas.MessageResponse, HTTPException]:
     return crud.delete_user(db, user_id)
