@@ -179,6 +179,7 @@ cython_debug/
 
 # data
 test.db
+local.db
 
 # vim
 *.swp
