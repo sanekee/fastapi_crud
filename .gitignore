@@ -173,4 +173,12 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+
+# vscode
+.vscode
+
+# data
 test.db
+
+# vim
+*.swp
