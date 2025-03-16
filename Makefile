@@ -1,6 +1,5 @@
-.PHONY: init
-init:
-	alembic revision --autogenerate -m "initial migration"
+.PHONY: migratedb
+migratedb:
 	alembic upgrade head
 
 .PHONY: seed
