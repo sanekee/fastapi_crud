@@ -2,7 +2,7 @@
 A CRUD demo using FastAPI
 
 ## Development
-A [devcontainer](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)environment is setup with necessary extensions, python modules to bootstrap development.
+A [devcontainer](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) environment is setup with necessary extensions, python modules to bootstrap development.
 
 ## Initialize Database
 
