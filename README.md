@@ -7,7 +7,7 @@ A [devcontainer](https://marketplace.visualstudio.com/items?itemName=ms-vscode-r
 ## Initialize Database
 
 ```shell
-$ make init
+$ make migratedb
 ```
 
 ## Seed Database with 10 users
